@@ -64,9 +64,8 @@ public void comparePageTitle()
 	}
 	else {
 		System.out.println("No Title matches");
-driver.findElement(
-	}
-
+		System.out.println("git 2");
+		System.out.println("git 3");
 
 
 driver.close();

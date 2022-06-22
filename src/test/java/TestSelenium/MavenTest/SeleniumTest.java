@@ -66,8 +66,9 @@ public void comparePageTitle()
 		System.out.println("No Title matches");
 		System.out.println("git 2");
 		System.out.println("git 3");
-
-
+		System.out.println("git 4");
+		System.out.println("git 5");
+		System.out.println("git 6");
 driver.close();
 }
 

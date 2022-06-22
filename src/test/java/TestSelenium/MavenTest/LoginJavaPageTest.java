@@ -43,6 +43,7 @@ public class LoginJavaPageTest {
         verify.typeAndClickDesiredSearchText();
         verify.locateAndClickDesiredWebsiteLink();
         verify.comparePageTitle();
+        driver.close();
         extent.flush();
 	}
 	

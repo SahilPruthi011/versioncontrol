@@ -46,5 +46,25 @@ public class LoginJavaPageTest {
         driver.close();
         extent.flush();
 	}
+	@Test
+	public void clickAmazonSearchTextBox() throws InterruptedException
+	{
+		
+		ExtentTest test=extent.createTest("NMG Automation Scenario");
+    	System.setProperty("webdriver.chrome.driver","C:\\Users\\namit\\Downloads\\chromedriver_win32 (1)/chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		String baseUrl = "https://www.google.com/";
+        driver.get(baseUrl);
+        SeleniumTest verify=new SeleniumTest(driver);
+ 
+        verify.clickAndTypeGoogleSearchTextBox();
+        verify.typeAndClickDesiredSearchText();
+        verify.locateAndClickDesiredWebsiteLink();
+        verify.comparePageTitle();
+        driver.close();
+        extent.flush();
+	}
 	
 }

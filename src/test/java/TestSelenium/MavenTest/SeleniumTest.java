@@ -51,6 +51,22 @@ public void locateAndClickDesiredWebsiteLink()
 	indiator.click();
 
 }
+public void navigateAndClickDesiredWebsiteLink()
+{
+	JavascriptExecutor js=(JavascriptExecutor) driver;
+	js.executeScript("window.scrollBy(0,250)", "");
+	WebElement indiator=driver.findElement(IndiatorWebsite);
+	indiator.click();
+
+}
+public void AppiumAndClickDesiredWebsiteLink()
+{
+	JavascriptExecutor js=(JavascriptExecutor) driver;
+	js.executeScript("window.scrollBy(0,250)", "");
+	WebElement indiator=driver.findElement(IndiatorWebsite);
+	indiator.click();
+
+}
 public void comparePageTitle()
 {
 	String a="Best Time to visit Qutub Minar | Opening Time | Entry Time of Qutub Minar";
@@ -61,6 +77,9 @@ public void comparePageTitle()
 	if(a.equals(driver.getTitle().trim()))
 	{
 		System.out.println("Title matches");
+		System.out.println("Selenium");
+		System.out.println("Appium");
+		System.out.println("Rest");
 	}
 	else {
 		System.out.println("No Title matches");

@@ -90,5 +90,8 @@ public void comparePageTitle()
 		System.out.println("git 6");
 driver.close();
 }
-
+public void Selenium()
+{
+	System.out.println("Selenium");
+}
 }

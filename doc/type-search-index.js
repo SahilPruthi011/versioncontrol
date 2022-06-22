@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"TestSelenium.MavenTest","l":"App"},{"p":"TestSelenium.MavenTest","l":"LoginJavaPageTest"},{"p":"TestSelenium.MavenTest","l":"SeleniumTest"}];updateSearchResults();
